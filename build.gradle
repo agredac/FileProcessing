@@ -33,6 +33,7 @@ repositories {
 
 
 dependencies {
+ //   implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-batch'
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
     implementation 'org.springframework.batch:spring-batch-core'
@@ -42,10 +43,13 @@ dependencies {
     implementation 'com.latam.ecs.canonical.model.paymentresponses:bh-canonical-format-payment-responses:1.0.0'
 
 
-    implementation 'org.glassfish.jaxb:jaxb-runtime'
-    implementation 'jakarta.xml.bind:jakarta.xml.bind-api'
-    implementation 'com.sun.xml.bind:jaxb-impl'
-    implementation 'jakarta.activation:jakarta.activation-api'
+ //   implementation 'org.glassfish.jaxb:jaxb-runtime'
+ //   implementation 'jakarta.xml.bind:jakarta.xml.bind-api'
+ //   implementation 'com.sun.xml.bind:jaxb-impl'
+ //   implementation 'jakarta.activation:jakarta.activation-api'
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    runtimeOnly 'com.h2database:h2'  // H2 database dependency
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'

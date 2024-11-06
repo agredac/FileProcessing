@@ -11,12 +11,12 @@ import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Stream;
 
-@Service
+/*@Service
 @EnableAsync
-@RequiredArgsConstructor
+@RequiredArgsConstructor*/
 public class FileProcessorService {
 
-    private final MongoTemplate mongoTemplate;
+    /*private final MongoTemplate mongoTemplate;
 
     public void processFile(String inputFile, String outputFile) {
 
@@ -71,5 +71,5 @@ public class FileProcessorService {
                 e.printStackTrace();
             }
         });
-    }
+    }*/
 }
