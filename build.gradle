@@ -43,8 +43,8 @@ dependencies {
     implementation 'com.latam.ecs.canonical.model.paymentresponses:bh-canonical-format-payment-responses:1.0.0'
 
 
- //   implementation 'org.glassfish.jaxb:jaxb-runtime'
- //   implementation 'jakarta.xml.bind:jakarta.xml.bind-api'
+    implementation 'org.glassfish.jaxb:jaxb-runtime'
+    implementation 'jakarta.xml.bind:jakarta.xml.bind-api'
  //   implementation 'com.sun.xml.bind:jaxb-impl'
  //   implementation 'jakarta.activation:jakarta.activation-api'
 
