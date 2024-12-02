@@ -41,9 +41,10 @@ dependencies {
     implementation 'org.springframework:spring-oxm'
     implementation 'com.prowidesoftware:pw-iso20022:SRU2022-9.3.5'
     implementation 'com.latam.ecs.canonical.model.paymentresponses:bh-canonical-format-payment-responses:1.0.0'
+    implementation 'com.thoughtworks.xstream:xstream:1.4.20' // Use the latest version
 
 
-    implementation 'org.glassfish.jaxb:jaxb-runtime'
+   implementation 'org.glassfish.jaxb:jaxb-runtime'
     implementation 'jakarta.xml.bind:jakarta.xml.bind-api'
  //   implementation 'com.sun.xml.bind:jaxb-impl'
  //   implementation 'jakarta.activation:jakarta.activation-api'

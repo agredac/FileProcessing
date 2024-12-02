@@ -7,14 +7,15 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.xml.datatype.XMLGregorianCalendar;
 
+
  @XmlRootElement(name = "TxInfAndSts")
-/*@XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "TxInfAndSts")*/
+@XmlAccessorType(XmlAccessType.FIELD)
+/*@XmlType(name = "TxInfAndSts")*/
 public class TxInfAndSts {
 
 
   @XmlElement(name = "OrgnlEndToEndId")
-  protected String orgnlEndToEndId;
+  private String orgnlEndToEndId;
 
   public TxInfAndSts() {}
 
